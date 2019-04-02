@@ -1,5 +1,5 @@
 #import "NotificationPermissionsPlugin.h"
-#import <notification_permissions/notification_permissions-Swift.h>
+#import "SwiftNotificationPermissionsPlugin.swift"
 
 @implementation NotificationPermissionsPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
